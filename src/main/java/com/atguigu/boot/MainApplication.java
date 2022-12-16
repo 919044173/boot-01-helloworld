@@ -1,5 +1,6 @@
 package com.atguigu.boot;
 
+import com.atguigu.boot.bean.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -16,5 +17,8 @@ public class MainApplication {
         for (String name : names) {
             System.out.println(name);
         }
+
+        boolean user01 = run.containsBean("user01");
+        System.out.println(user01);
     }
 }
