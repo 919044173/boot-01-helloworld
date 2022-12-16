@@ -5,9 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author ay.
- * @create 2022-12-10 17:24
+ * @create 2022-12-16 16:46
  */
-
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
