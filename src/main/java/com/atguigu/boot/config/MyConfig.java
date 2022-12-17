@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @author ay.
  * @create 2022-12-16 17:56
  */
-
 @Configuration
 public class MyConfig {
 
