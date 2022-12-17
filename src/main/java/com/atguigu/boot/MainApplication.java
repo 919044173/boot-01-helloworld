@@ -19,5 +19,7 @@ public class MainApplication {
 
         boolean user01 = run.containsBean("user01");
         System.out.println(user01);
+
+        System.out.println("++++++++++++++++++++++++++++++");
     }
 }
